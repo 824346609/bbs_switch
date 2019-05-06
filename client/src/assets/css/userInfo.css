@@ -1,0 +1,45 @@
+* {
+  text-decoration: none;
+}
+.container {
+position: absolute;
+top: 50%;
+height: 100%;
+width: 79.2%;
+left: 10%;
+right: 10%;
+max-width: 100%;
+}
+.Cont_L {
+width: 182px;
+height: auto;
+min-height: 81%;
+background-color: #f5f5f5;
+float: left;
+padding: .5em 0;
+}
+.link > p {
+cursor: pointer;
+margin: 20px auto 0;
+width: 155px;
+height: 30px;
+line-height: 30px;
+border-radius: 15px;
+text-align: center;
+color: black;
+font-size: 16px;
+background-color: white;
+}
+.router-link-active > p{
+  color: white;
+  background-color: #1997fc;
+}
+.Cont_R {
+  position: absolute;
+  width: 810px;
+  left: 187px;
+  height: auto;
+  min-height: 83.3%;
+  border-left: 2px solid white;
+  background-color: #f5f5f5;
+}
